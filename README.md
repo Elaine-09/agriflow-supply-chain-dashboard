@@ -3,8 +3,6 @@ AgriFlow is a portfolio project exploring maize deliveries, mill performance and
 
 The project starts with an Excel-based Power BI dashboard and is being extended into a SQL Server-backed reporting solution. This allows me to demonstrate both approaches and explain where data preparation, calculations and reporting take place in each.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ## Version 1: Excel → Power BI
 The original dashboard uses Excel source data to explore supply chain performance through interactive Power BI reports.
 
@@ -12,8 +10,6 @@ The original dashboard uses Excel source data to explore supply chain performanc
 **Technology stack:** Microsoft Excel, Power BI Desktop, Power Query and DAX.
 
 This version demonstrates importing Excel data, preparing it for analysis, modelling relationships and presenting business metrics through visualisations and filters.
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Version 2: Excel → SQL Server → Power BI
 The second version uses the AgriFlow data to develop my SQL skills and build a database-backed reporting workflow.
@@ -30,8 +26,6 @@ The planned workflow includes:
 - Validating report results against SQL calculations.
 
 SQL scripts and documentation will be added as the implementation progresses.
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## What this project demonstrates
 - Working with the same business data through different technical workflows.
