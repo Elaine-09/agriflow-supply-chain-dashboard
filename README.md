@@ -11,8 +11,7 @@ The original dashboard uses Excel source data to explore supply chain performanc
 
 This version demonstrates importing Excel data, preparing it for analysis, modelling relationships and presenting business metrics through visualisations and filters.
 
-Version 2: Excel → SQL Server Analysis
-
+## Version 2: Excel → SQL Server Analysis
 The second version extends AgriFlow into a SQL analysis project, using the same synthetic source data to practise database setup, data preparation and business reporting.
 
 Status: In development — SQL scripts 01–14 completed.
