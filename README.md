@@ -11,21 +11,25 @@ The original dashboard uses Excel source data to explore supply chain performanc
 
 This version demonstrates importing Excel data, preparing it for analysis, modelling relationships and presenting business metrics through visualisations and filters.
 
-## Version 2: Excel → SQL Server → Power BI
-The second version uses the AgriFlow data to develop my SQL skills and build a database-backed reporting workflow.
+Version 2: Excel → SQL Server Analysis
 
-**Status: In development**
-**Technology stack:** Microsoft SQL Server, SQL Server Management Studio (SSMS), T-SQL, Power BI Desktop, Power Query and DAX.
+The second version extends AgriFlow into a SQL analysis project, using the same synthetic source data to practise database setup, data preparation and business reporting.
 
-The planned workflow includes:
-- Importing source data into SQL Server.
-- Defining appropriate data types, tables, keys and relationships.
-- Checking for missing values, duplicates and inconsistent records.
-- Writing SQL queries to analyse deliveries, quality results and mill performance.
-- Creating reusable SQL views for Power BI.
-- Validating report results against SQL calculations.
+Status: In development — SQL scripts 01–14 completed.
+Technology stack: Microsoft Excel, Microsoft SQL Server 2025, SQL Server Management Studio (SSMS) and T-SQL.
 
-SQL scripts and documentation will be added as the implementation progresses.
+Work completed so far includes:
+- Creating the AgriFlow database.
+- Setting up staging and final tables for product, supplier, facility and transporter data.
+- Defining data types and primary keys.
+- Importing, checking and preparing reference data.
+- Writing summary queries and using CASE expressions to categorise results.
+- Exploring facility capacity through SQL calculations.
+
+The next stage focuses on importing delivery data, checking data quality and writing queries to investigate delivery performance, quality results and operational trends.
+
+Version 2 focuses on SQL analysis, with the completed Version 1 Power BI dashboard providing the existing visual reporting example.
+SQL scripts are organised in numbered order under version-2-sql-analysis/sql/, with documentation added as the implementation progresses.
 
 ## What this project demonstrates
 - Working with the same business data through different technical workflows.
@@ -39,4 +43,3 @@ The repository will document the source data, setup steps, transformation logic,
 ## Data
 AgriFlow uses synthetic maize supply chain data for learning and portfolio demonstration.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
